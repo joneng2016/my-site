@@ -5,7 +5,7 @@
       color="#303f9f!important"
       dark
       shrink-on-scroll
-      prominent
+      :src='{figimag}'
       scroll-target="#scrolling-techniques"
     >
         <v-row>
