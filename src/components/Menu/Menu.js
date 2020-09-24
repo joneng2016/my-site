@@ -1,5 +1,9 @@
+import image from "./assets/menu_bar.jpg";
+
 export default {
-    data: {
-        figimag:require("./assets/menu_bar.jpg")
+    data() {
+        return { 
+            figImage:image
+        }
     }
 }

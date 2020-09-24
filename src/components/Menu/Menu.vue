@@ -1,39 +1,33 @@
 <template>
-  <v-card class="overflow-hidden">
+
     <v-app-bar
       absolute
       color="#303f9f!important"
       dark
       shrink-on-scroll
-      :src='{figimag}'
+      :src="figImage"
       scroll-target="#scrolling-techniques"
     >
-        <v-row>
-            <v-btn text small>
-                Seja Bem Vindo
-            </v-btn>
+        <v-row >
             <v-btn text small  class="button-main-menu">
-                Currículo
+                <strong>Bem Vindo</strong>
+            </v-btn>            
+            <v-btn text small  class="button-main-menu">
+                <strong>Currículo</strong>
             </v-btn>    
             <v-btn text small  class="button-main-menu">
-                Contato
+                <strong>Contato</strong>
             </v-btn>
         </v-row>
         
-            <v-toolbar-title>Jonathan Morris Samara - Desenvolvedor de Sistemas Web</v-toolbar-title>
+        <v-toolbar-title>Jonathan Morris Samara - Desenvolvedor de Sistemas Web</v-toolbar-title>
 
-        
-    </v-app-bar>
-    <v-sheet
-      id="scrolling-techniques"
-      class="overflow-y-auto"
-      max-height="600"
-    >
-      <v-container style="height: 1000px;"></v-container>
-    </v-sheet>
-  </v-card>
+    </v-app-bar>  
+    
 </template>
 
-<style>
-    @import "./Menu.scss";
+<style lang="sass">
+    @import "./Menu.scss"
 </style>
+
+<script src="./Menu.js"></script>
