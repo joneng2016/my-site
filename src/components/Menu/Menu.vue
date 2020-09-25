@@ -8,10 +8,13 @@
       :src="figImage"
       scroll-target="#scrolling-techniques"
     >
-        <v-row >
+        <v-row >        
             <v-btn text small  class="button-main-menu">
                 <strong>Bem Vindo</strong>
-            </v-btn>            
+            </v-btn>
+            <v-btn text small  class="button-main-menu">
+                <strong>Interesses</strong>
+            </v-btn>
             <v-btn text small  class="button-main-menu">
                 <strong>Currículo</strong>
             </v-btn>    

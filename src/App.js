@@ -1,5 +1,6 @@
-import Menu from "./components/Menu/Menu.vue";
 import WelcomeStructure from "./components/WelcomeStructure/WelcomeStructure.vue";
+import Footer from "./components/Footer/Footer.vue"
+import Menu from "./components/Menu/Menu.vue";
 
 export default {
     data() {
@@ -9,6 +10,7 @@ export default {
     },
     components:{
         "main-menu":Menu,
-        "welcome-structure":WelcomeStructure
+        "welcome-structure":WelcomeStructure,
+        "footer-component":Footer
     }
 }

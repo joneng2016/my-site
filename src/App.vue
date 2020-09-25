@@ -11,6 +11,9 @@
       <div class="body-condition">
         <welcome-structure  />
       </div>
+      <div class="footer">
+        <footer-component  />
+      </div>      
     </v-card>      
   </div>
 </template>
