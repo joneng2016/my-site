@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <v-card class="overflow-hidden">
-      <main-menu/>
+      <main-menu 
+          :content="content"
+      />
       <v-sheet
         id="scrolling-techniques"
         class="overflow-y-auto"
@@ -12,7 +14,9 @@
         <welcome-structure  />
       </div>
       <div class="footer">
-        <footer-component  />
+        <footer-component  
+          :content="content"
+        />
       </div>      
     </v-card>      
   </div>

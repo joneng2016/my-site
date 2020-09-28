@@ -1,12 +1,17 @@
 import WelcomeStructure from "./components/WelcomeStructure/WelcomeStructure.vue";
 import Footer from "./components/Footer/Footer.vue"
 import Menu from "./components/Menu/Menu.vue";
+import generalInformation from "./artefacts/generalInformation";
 
 export default {
     data() {
         return {
-            generalState:"welcome"
+            generalState:"welcome",
+            content:{}
         } 
+    },
+    created( ){
+        this.content = generalInformation()
     },
     components:{
         "main-menu":Menu,

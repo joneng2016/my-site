@@ -10,20 +10,20 @@
     >
         <v-row >        
             <v-btn text small  class="button-main-menu">
-                <strong>Bem Vindo</strong>
+                <strong>{{content.buttonOne}}</strong>
             </v-btn>
             <v-btn text small  class="button-main-menu">
-                <strong>Interesses</strong>
+                <strong>{{content.buttonTwo}}</strong>
             </v-btn>
             <v-btn text small  class="button-main-menu">
-                <strong>Currículo</strong>
+                <strong>{{content.buttonThree}}</strong>
             </v-btn>    
             <v-btn text small  class="button-main-menu">
-                <strong>Contato</strong>
-            </v-btn>
+                <strong>{{content.buttonFor}}</strong>
+            </v-btn>         
         </v-row>
         
-        <v-toolbar-title>Jonathan Morris Samara - Desenvolvedor de Sistemas Web</v-toolbar-title>
+        <v-toolbar-title>{{content.mainTitle}}</v-toolbar-title>
 
     </v-app-bar>  
     
