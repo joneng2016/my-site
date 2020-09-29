@@ -5,6 +5,10 @@ export default function generalInformation() {
         buttonThree:"Currículo",
         mainTitle:"Jonathan Morris Samara - Desenvolvedor de Sistemas Web",
         buttonFor:"Contato",
-        titleFooter:"Contato"
+        titleFooter:"Contato",
+        function:"Desenvolvedor FullStack",
+        specialistLanguage:"Especialista em PHP e JavaScript",
+        email:"E-mail: jonathan_samara@hotmail.com",
+        cellPhoneOne:"Celular 1 (WhatsApp): +55 (41) 996311759"
     }
 }

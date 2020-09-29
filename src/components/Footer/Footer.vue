@@ -4,9 +4,15 @@
             <center>
                 <h2>{{content.titleFooter}}</h2>
 
-                <p>
-                    footer teste
-                </p>
+                <div class="information-footer">
+                    <p><strong>{{content.function}}</strong></p>
+                    <p>{{content.specialistLanguage}}</p>
+                    <p>{{content.email}}</p>
+                    <p>{{content.cellPhoneOne}}</p>
+                    <p>{{content.cellPhoneTwo}}</p>
+
+                    <img src="./assets/linkedinlogo.jpeg"></img>
+                </div>
             </center>                
         </div>                    
     </div>    
