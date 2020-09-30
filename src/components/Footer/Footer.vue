@@ -11,7 +11,7 @@
                     <p>{{content.cellPhoneOne}}</p>
                     <p>{{content.cellPhoneTwo}}</p>
 
-                    <img src="./assets/linkedinlogo.jpeg"></img>
+                    <v-img class="linkedin-fig-img" :src="linkedinImage"></v-img>
                 </div>
             </center>                
         </div>                    

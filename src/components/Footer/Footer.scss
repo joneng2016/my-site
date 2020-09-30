@@ -1,7 +1,7 @@
 .body-footer {
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:12px;
+    font-size:15px;
     color:white;
     background-color:rgb(22, 22, 22);
     margin:0px;
@@ -16,5 +16,13 @@
         p {
             margin-top:3px;
         }
+    }
+    .linkedin-fig-img {
+        width: 40px;
+        border-radius: 100px;
+        margin-top:15px;
+        border-style: solid;
+        border-color: #A9A9A9;
+        border-width: 1px;
     }
 }
