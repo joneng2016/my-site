@@ -11,7 +11,9 @@
                     <p>{{content.cellPhoneOne}}</p>
                     <p>{{content.cellPhoneTwo}}</p>
 
-                    <v-img class="linkedin-fig-img" :src="linkedinImage"></v-img>
+                    <a href="https://www.linkedin.com/in/jonathan-morris-samara-3a45356a/">
+                        <v-img class="linkedin-fig-img" :src="linkedinImage"></v-img>
+                    </a>
                 </div>
             </center>                
         </div>                    

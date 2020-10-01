@@ -9,6 +9,7 @@ export default function generalInformation() {
         function:"Desenvolvedor FullStack",
         specialistLanguage:"Especialista em PHP e JavaScript",
         email:"E-mail: jonathan_samara@hotmail.com",
-        cellPhoneOne:"Celular 1 (WhatsApp): +55 (41) 996311759"
+        cellPhoneOne:"Celular 1 (WhatsApp): +55 (41) 996311759",
+        cellPhoneTwo:"Celular 2 (WhatsApp): +55 (41) 996554091"
     }
 }
