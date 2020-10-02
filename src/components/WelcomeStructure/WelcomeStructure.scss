@@ -1,9 +1,17 @@
 .welcome {
+    
+    .contofh1 {
+        position: relative;
+        top:-300px;        
+    }
+
+    .spefig {
+        margin-top:-60px;
+        border-radius: 20px;
+    }
+
     .specific-h1 {
         font-size:30px;
         font-weight: 340;
-        background-color: #d7d9da;
-        padding-top: 5px;
-        border-radius: 5px;
     }
 }
