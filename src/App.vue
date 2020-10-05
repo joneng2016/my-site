@@ -3,6 +3,7 @@
     <v-card class="overflow-hidden">
       <main-menu 
           :content="content"
+          
       />
       <v-sheet
         id="scrolling-techniques"
@@ -11,9 +12,10 @@
       >
       </v-sheet>
       <div class="body-condition">
-        <welcome-structure  
+        <welcome-structure v-if="generalState == 'welcome'"  
           :content="content"        
-        />    
+        />
+
       </div>
       <div class="footer">
         <footer-component  

@@ -11,5 +11,10 @@ export default {
         return { 
             figImage:image
         }
+    },
+    methods: {
+        changeComponent(typeOfComponent) {
+            console.log(typeOfComponent)
+        }
     }
 }

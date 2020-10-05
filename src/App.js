@@ -13,6 +13,11 @@ export default {
     created( ){
         this.content = generalInformation()
     },
+    methods: {
+        setGeneralState(generalState) {
+            this.generalState = generalState
+        }
+    },
     components:{
         "main-menu":Menu,
         "welcome-structure":WelcomeStructure,

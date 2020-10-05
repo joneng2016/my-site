@@ -8,17 +8,17 @@
       :src="figImage"
       scroll-target="#scrolling-techniques"
     >
-        <v-row >        
-            <v-btn text small  class="button-main-menu">
+        <v-row class="specific-width-menu">        
+            <v-btn text small  class="button-main-menu" v-on:click="changeComponent('welcome')" >
                 <strong>{{content.buttonOne}}</strong>
             </v-btn>
-            <v-btn text small  class="button-main-menu">
+            <v-btn text small  class="button-main-menu" v-on:click="changeComponent('whatilike')">
                 <strong>{{content.buttonTwo}}</strong>
             </v-btn>
-            <v-btn text small  class="button-main-menu">
+            <v-btn text small  class="button-main-menu" v-on:click="changeComponent('curriculum')" >
                 <strong>{{content.buttonThree}}</strong>
             </v-btn>    
-            <v-btn text small  class="button-main-menu">
+            <v-btn text small  class="button-main-menu" v-on:click="changeComponent('contact')">
                 <strong>{{content.buttonFor}}</strong>
             </v-btn>         
         </v-row>
