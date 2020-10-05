@@ -3,7 +3,10 @@
         <v-parallax class="spefig" dark height="1000" :src="backFig" >
             <div class="contofh1">
                 <center>
-                    <h1 class="specific-h1">Seja Bem Vindo</h1>
+                    <h1 class="specific-h1">
+                        {{content.welcomeInformation}}
+                    </h1>
+                    <v-img  class="mainfig" :src="mainFig"></v-img>
                 </center>
             </div>
         </v-parallax>

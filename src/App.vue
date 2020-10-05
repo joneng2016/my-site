@@ -11,7 +11,9 @@
       >
       </v-sheet>
       <div class="body-condition">
-        <welcome-structure  />    
+        <welcome-structure  
+          :content="content"        
+        />    
       </div>
       <div class="footer">
         <footer-component  
