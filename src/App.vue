@@ -15,7 +15,9 @@
         <welcome-structure v-if="generalState == 'welcome'"  
           :content="content"        
         />
-        <interest v-if="generalState == 'whatilike'" />
+        <interest v-if="generalState == 'whatilike'" 
+          :content="content"
+        />
       </div>
       <div class="footer">
         <footer-component  

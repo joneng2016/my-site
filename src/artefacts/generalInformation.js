@@ -11,6 +11,16 @@ export default function generalInformation() {
         email:"E-mail: jonathan_samara@hotmail.com",
         cellPhoneOne:"Celular 1 (WhatsApp): +55 (41) 996311759",
         cellPhoneTwo:"Celular 2 (WhatsApp): +55 (41) 996554091",
-        welcomeInformation:"Seja Bem Vindo!"
+        welcomeInformation:"Seja Bem Vindo!",
+        interest:[
+            {
+                title:"Tecnologia da Informação",
+                description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            },
+            {
+                title:"Musculação",
+                description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            }            
+        ]
     }
 }
