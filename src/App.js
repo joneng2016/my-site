@@ -1,6 +1,7 @@
 import WelcomeStructure from "./components/WelcomeStructure/WelcomeStructure.vue";
 import Footer from "./components/Footer/Footer.vue"
 import Menu from "./components/Menu/Menu.vue";
+import Interest from "./components/Interests/Interest.vue";
 import generalInformation from "./artefacts/generalInformation";
 
 export default {
@@ -21,6 +22,7 @@ export default {
     components:{
         "main-menu":Menu,
         "welcome-structure":WelcomeStructure,
-        "footer-component":Footer
+        "footer-component":Footer,
+        "interest":Interest
     }
 }
