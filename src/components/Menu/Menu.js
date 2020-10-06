@@ -14,6 +14,7 @@ export default {
     },
     methods: {
         changeComponent(typeOfComponent) {
+            this.$emit("setGeneralState",typeOfComponent)
             console.log(typeOfComponent)
         }
     }

@@ -3,7 +3,7 @@
     <v-card class="overflow-hidden">
       <main-menu 
           :content="content"
-          
+          @setGeneralState="setGeneralState"          
       />
       <v-sheet
         id="scrolling-techniques"
