@@ -12,6 +12,7 @@ export default function generalInformation() {
         cellPhoneOne:"Celular 1 (WhatsApp): +55 (41) 996311759",
         cellPhoneTwo:"Celular 2 (WhatsApp): +55 (41) 996554091",
         welcomeInformation:"Seja Bem Vindo!",
+        generalTitleOfInterest:"Meus Interesses Profissionais e Pessoais",
         interest:[
             {
                 title:"Tecnologia da Informação",
