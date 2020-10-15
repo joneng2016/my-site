@@ -14,7 +14,8 @@
     }
     .body-article {
         text-align: justify;
-        margin-top: 15px;
+        margin-left: 15px;
+        width: 70%;
     }
 }
 
@@ -38,5 +39,5 @@
  }
 
 .disposition-paragraph {
-    display: inline-block;
+    display:inline-flex
 }
