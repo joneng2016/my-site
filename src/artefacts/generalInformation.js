@@ -19,8 +19,9 @@ export default function generalInformation() {
             {
                 title:"Musculação",
                 figure:musculacao,
-                reference:"<a href='http://www.freepik.com'>Designed by javi_indy / Freepik</a>",
-                description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                linkName:"http://www.freepik.com",
+                nameLink:"Designed by javi_indy / Freepik",
+                description:"Eu dedico parte do meu tempo livre à prática da musculação. Isso consiste em treinos de cinco a seis vez na semana, as vezes no horário do almoço as vezes depois do horário de trabalho. Não apenas a prática do exercício, mas acompanho o esporte constantemente, leio fóruns e textos, acompanho vídeos entre outras formas de média em relação a musculação"
             }                                    
         ]
     }
