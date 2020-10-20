@@ -1,4 +1,5 @@
 import musculacao from "../assets/musculacao.jpg";
+import trilha from "../assets/trilha.jpg";
 
 export default function generalInformation() {
     return {
@@ -22,6 +23,13 @@ export default function generalInformation() {
                 linkName:"http://www.freepik.com",
                 nameLink:"Designed by javi_indy / Freepik",
                 description:"Eu dedico parte do meu tempo livre à prática da musculação. Isso consiste em treinos de cinco a seis vez na semana, as vezes no horário do almoço as vezes depois do horário de trabalho. Não apenas a prática do exercício, mas acompanho o esporte constantemente, leio fóruns e textos, acompanho vídeos entre outras formas de média em relação a musculação"
+            },
+            {
+                title:"Trilha e Passeio na Natureza",
+                figure:trilha,
+                linkName:"",
+                nameLink:"Trilhas na natureza",
+                description:"Lip"
             }                                    
         ]
     }
