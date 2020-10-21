@@ -21,7 +21,7 @@ export default function generalInformation() {
                 title:"Musculação",
                 figure:musculacao,
                 linkName:"http://www.freepik.com",
-                nameLink:"Designed by javi_indy / Freepik",
+                nameLink:"Por: Designed by javi_indy / Freepik",
                 description:"Eu dedico parte do meu tempo livre à prática da musculação. Isso consiste em treinos de cinco a seis vez na semana, as vezes no horário do almoço as vezes depois do horário de trabalho. Não apenas a prática do exercício, mas acompanho o esporte constantemente, leio fóruns e textos, acompanho vídeos entre outras formas de média em relação a musculação"
             },
             {
@@ -29,7 +29,7 @@ export default function generalInformation() {
                 figure:trilha,
                 linkName:"",
                 nameLink:"Trilhas na natureza",
-                description:"Lip"
+                description:"Eu gosto de fazer trilhas e passeios ao longo da natureza. Constantemente vou com meu carro até parques, cachoeiras, praias entre outros a fim de ter um momento contemplativo em sussego. A trilha do Itupava, Monte do Anhangava, Monte Marumbi (Estação, Rochedinho, Tigre) estão entre as trilhas que eu costumo fazer. Os Parques como Recanto dos Papagaios, Jardim Botânico e Passaúna estão entre aqueles cujos quais eu visito periodicamente. No que diz respeito as praias, eu constamenete desco para o litoral do Paraná (Shangri la , Matinhos) e de Santa Catarina (Itapoá, Florianópolis)"
             }                                    
         ]
     }
