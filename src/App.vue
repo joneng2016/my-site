@@ -18,6 +18,9 @@
         <interest v-if="generalState == 'whatilike'" 
           :content="content"
         />
+        <curriculo v-if="generalState == 'curriculum'" 
+          :content="content"
+        />      
       </div>
       <div class="footer">
         <footer-component  
