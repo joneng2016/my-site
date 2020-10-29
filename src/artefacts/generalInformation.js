@@ -56,6 +56,79 @@ export default function generalInformation() {
                 description:"Eu gosto de fazer trilhas e passeios ao longo da natureza. Constantemente vou com meu carro até parques, cachoeiras, praias entre outros a fim de ter um momento contemplativo em sossego. A trilha do Itupava, Monte do Anhangava, Monte Marumbi (Estação, Rochedinho, Tigre) estão entre as trilhas que eu costumo fazer. Os Parques como Recanto dos Papagaios, Jardim Botânico e Passaúna estão entre aqueles cujos quais eu visito periodicamente. No que diz respeito as praias, eu constantemente desço para o litoral do Paraná (Shangri la , Matinhos) e de Santa Catarina (Itapoá, Florianópolis)"
             } 
         ],
-        generalTitleOfCurriculo:"Meu Currículo"        
+        generalTitleOfCurriculo:"Meu Currículo",
+        curriculo:{
+            academy:{
+                title:"Formação e Conhecimentos",
+                body:[
+                    {
+                        institution:"Universidade Tecnológica Federal do Paraná",
+                        course:"Mestrado em Informática Industrial",
+                        period:"2017-2019",
+                        finalDocumentName:"Um Modelo Conceitual Para Cenários de Acidentes em Atividades de Manutenção"
+                    },
+                    {
+                        institution:"Universidade Federal do Paraná",
+                        course:"Engenhari Elétrica",
+                        period:"2011-2016",
+                        finalDocumentName:"Um Modelo Conceitual Para Cenários de Acidentes em Atividades de Manutenção"                        
+                    }
+                ]
+            },
+            hability: {
+                title:"Habilidades",
+                body:[
+                    {
+                        name:"Linguagens de Programação",
+                        list:[                             
+                            "PHP (framework: Laravel, Codeigniter Wordpress)",
+                            "JavaScript (Vue Js - Vuetify,jQuery,React, Vanila)",
+                            "Node Js (em formato TypeScript)",
+                            "Java (conhecimentos em SpringBoot, JPA Hibernete)",
+                            "Python (Flask, Panda, TensorFlow)"
+                        ]
+                    },
+                    {
+                        name:"Inglês",
+                        list:[
+                            "Entende, escreve e lê bem. Fala com certa fluência."
+                        ]
+                    },
+                    {
+                        name:"Metodologias e Práticas em Desenvolvimento de Software.",
+                        list:[
+                            "Design Pattern, em SOLID  e em Métodos Ágeis."
+                        ]
+                    },
+                    {
+                        name:"Demais Tecnologias",
+                        list:[
+                            "Banco de Dados: MySQL, PostGreSQL, RedShift, ElasticSearch, SQLite e MongoDB.", 
+                            "Servidores: Apache2 em Debian.", 
+                            "Sistema de Controle de Versão: Git (GitHub e VSTS Visual Studios).", 
+                            "Container: Docker.", 
+                            "Editores: Vim, Sublime, Eclipse, Visual Studio (preferência por Sublime com plugin Vim).",
+                            "Escrita de Documentos: Latex (preferência), OpenOffice, Microsoft Office."
+                        ]
+                    }
+                ]
+            },
+            profissionalExperience:{
+                title:"Experiência Profissional",
+                body:[
+                    {
+                        name:"Desenvolvedor PHP Sênio",
+                        description:"(Regime CLT) Avalia requisitos, planeja arquitetura e efetua o desenvolvimento de aplicações Web. Soma-se a isso a elaboração de teste unitários, criação de ambientes para o funcionamento das aplicações e manutenção dos sistemas em produção."
+                    },
+                    {
+                        name:"Analista Desenvolvedor Full Stack Sênior",
+                        description:"(Regime CLT) Desenvolvimento e Manutenção de Sistemas Web. Atividades consiste nos seguintes pontos: Analisar os requisitos, efetuar um planejamento da solução, conceber a arquitetura, desenvolver o código, efetuar testes e acompanhar o deploy."
+                    },
+                    {
+                        name:"Professor Universitário de Computação"
+                    }
+                ]
+            }
+        }      
     }
 }
