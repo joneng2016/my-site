@@ -94,7 +94,7 @@ export default function generalInformation() {
                             "Entende, escreve e lê bem. Fala com certa fluência."
                         ]
                     },
-                    {
+                    { 
                         name:"Metodologias e Práticas em Desenvolvimento de Software.",
                         list:[
                             "Design Pattern, em SOLID  e em Métodos Ágeis."
@@ -118,14 +118,28 @@ export default function generalInformation() {
                 body:[
                     {
                         name:"Desenvolvedor PHP Sênio",
+                        company:"Econet",
                         description:"(Regime CLT) Avalia requisitos, planeja arquitetura e efetua o desenvolvimento de aplicações Web. Soma-se a isso a elaboração de teste unitários, criação de ambientes para o funcionamento das aplicações e manutenção dos sistemas em produção."
                     },
                     {
                         name:"Analista Desenvolvedor Full Stack Sênior",
+                        company:"Rentcars",
                         description:"(Regime CLT) Desenvolvimento e Manutenção de Sistemas Web. Atividades consiste nos seguintes pontos: Analisar os requisitos, efetuar um planejamento da solução, conceber a arquitetura, desenvolver o código, efetuar testes e acompanhar o deploy."
                     },
                     {
-                        name:"Professor Universitário de Computação"
+                        name:"Professor Universitário de Computação",
+                        company:"Facet Faculdades",
+                        description:"(Regime PJ) Ministro aulas presenciais de Engenharia de Software (para Bacharelado em Sistemas de Informação) e de Informática Aplicada (para Administração e Ciências Contábeis) com caráter tanto prático bem como acadêmico."
+                    },
+                    {
+                        name:"Software Development Specialist",
+                        company:"Alhambra-Eidos",
+                        description:"(Regime PJ) Desenvolvimento e Manutenção de Sistemas Web. Atividades consiste nos seguintes pontos: Analisar os requisitos, efetuar um planejamento da solução, conceber a arquitetura, desenvolver o código, efetuar testes e acompanhar o deploy."
+                    },
+                    {
+                        name:"Pesquisador em Engenharia de Sistemas",
+                        company:"Institutos Lactec",
+                        description:"(Regime Bolsista) Manutenção e Desenvolvimento de Sistemas. Trabalhou​ no projeto P&D RV2 Copel (desenvolvimento de um jogo sério para o treinamento de eletricistas de linha viva) com modelagem de conhecimento para elaboração de arquitetura de sistemas. Para isso, fez uso de técnicas de inteligência artificial forte (ontologia e sistemas multiagentes)."
                     }
                 ]
             }
