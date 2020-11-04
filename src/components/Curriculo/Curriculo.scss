@@ -63,7 +63,16 @@
         text-decoration: none;
         color:#736565;
     }
-    
+    .list {
+        margin-left:20px;
+        margin-top:10px;
+        font-size: 15px;
+        font-weight: 500;
+
+        .sublist {
+            margin-top:10px;
+        }
+    }
 }
 
 

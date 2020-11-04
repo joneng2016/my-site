@@ -61,7 +61,7 @@ export default function generalInformation() {
             academy:{
                 title:"Formação e Conhecimentos",
                 body:[
-                    {
+                    {   
                         institution:"Universidade Tecnológica Federal do Paraná",
                         course:"Mestrado em Informática Industrial",
                         period:"2017-2019",

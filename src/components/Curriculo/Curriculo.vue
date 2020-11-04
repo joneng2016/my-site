@@ -4,9 +4,10 @@
         <v-container>
           <v-row >
             <v-card >
+
               <v-img
                 height="200px"
-                src="https://cdn.pixabay.com/photo/2020/07/12/07/47/bee-5396362_1280.jpg"
+                :src="curriculo"
               >
                 <v-app-bar
                   flat
@@ -27,30 +28,38 @@
               </v-img>
 
               <v-card-text>
+
                 <div class="font-weight-bold ml-8 mb-2">
-                  Today
+                  <h3>
+                    {{content.curriculo.academy.title}}
+                  </h3>                    
                 </div>
 
-                <v-timeline
-                  align-top
-                  dense
-                >
-                  <v-timeline-item
-                    v-for="message in messages"
-                    :key="message.time"
-                    :color="message.color"
-                    small
-                  >
-                    <div>
-                      <div class="font-weight-normal">
-                        <strong>{{ message.from }}</strong> @{{ message.time }}
-                      </div>
-                      <div>{{ message.message }}</div>
-                    </div>
-                  </v-timeline-item>
-                </v-timeline>
+                <div class="list">                  
+                  <ul>
+                    <li class="sublist" v-for ="element in content.curriculo.academy.body" :key="element.course">
+                      <ul>
+                        <li>
+                          {{element.institution}}
+                        </li> 
+                        <li>
+                          {{element.course}}
+                        </li> 
+                        <li>
+                          {{element.period}}
+                        </li> 
+                        <li>
+                          {{element.finalDocumentName}}
+                        </li> 
+                      </ul>                                        
+                    </li>                    
+                  </ul>
+                </div>
+                  
               </v-card-text>
+
             </v-card>
+
           </v-row>
         </v-container>
       </template>    
