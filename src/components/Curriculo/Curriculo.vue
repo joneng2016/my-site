@@ -55,7 +55,33 @@
                     </li>                    
                   </ul>
                 </div>
-                  
+
+                <div class="font-weight-bold ml-8 mb-2">
+                  <h3>
+                    {{content.curriculo.hability.title}}
+                  </h3>                    
+                </div>
+
+                
+                <div class="list">
+                  <ul>
+                    <li class="sublist" v-for ="element in content.curriculo.hability.body" :key="element.name">
+                      <ul>
+                        <li>
+                          {{element.name}}
+                        </li> 
+                        <li>
+                          <ul>
+                            <li class="sublist" v-for ="elList in element.list" :key="element.name">
+                              {{elList}}
+                            </li>
+                          </ul>
+                        </li>                          
+                      </ul>                                        
+                    </li>                    
+                  </ul>                  
+                </div>                  
+
               </v-card-text>
 
             </v-card>
